@@ -39,7 +39,7 @@ Ide de sua preferência
 Navegador
 ```
 
-### 🔧 Instalação
+### 🔧 Execução
 
 Para acessar a aplicação :
 
@@ -54,6 +54,14 @@ Rode a aplicação ( Run application - Classe main AdsApplication.java)
 ```
 ```
 Após iniciar a aplicação estará disponível no endereço http://localhost:8080/
+```
+```
+O formulário de cadastro de anúncios poderá ser acessado através do botão "Novo anuncio" ou através da URL http://localhost:8080/newad
+Todos os campos de cadastro são obrigatórios
+```
+```
+A tabela de anúncios cadastrados, bem como o relatório da quantidade de visualizações e valor investido está disponível no endereço http://localhost:8080/
+A pesquisa pode ser realizada por nome do cliente, nome do anúncio, data inicial ou data final
 ```
 ```
 Para visualizar o banco de dados acessar http://localhost:8080/h2-console ( usuario "sa", senha "" jdbc:h2:mem:testdb )
