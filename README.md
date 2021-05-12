@@ -56,7 +56,7 @@ Rode a aplicação ( Run application)
 Após iniciar a aplicação estará disponível no endereço http://localhost:8080/
 ```
 ```
-Para visualizar o banco de dados acesar http://localhost:8080/h2-console ( usuario "sa", senha "" jdbc:h2:mem:testdb )
+Para visualizar o banco de dados acessar http://localhost:8080/h2-console ( usuario "sa", senha "" jdbc:h2:mem:testdb )
 ```
 
 
