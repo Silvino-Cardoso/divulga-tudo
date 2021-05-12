@@ -157,7 +157,7 @@ public class Ads {
     * @param dateOne e dateTwo - Data inicial e data final do anuncio
     * @return  double - Valor total investido no anuncio
     * */
-    public Double setTotalInvestment(String dateOne , String dateTwo) throws ParseException {
+    public double setTotalInvestment(String dateOne , String dateTwo) throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Date firstDate = sdf.parse(dateOne);
         Date secondDate = sdf.parse(dateTwo);

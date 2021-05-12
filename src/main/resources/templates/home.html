@@ -41,7 +41,7 @@
                 <tr class="text-center" th:each="ads : ${ads}">
                     <th scope="row" th:text="${ads.adName}"></th>
                     <td scope="row" th:text="${ads.clientName}"></td>
-                    <td scope="row" th:text="${ads.totalInvestment}"></td>
+                    <td scope="row" th:text=" 'R$' + ${ads.totalInvestment}"></td>
                     <td scope="row" th:text="${ads.totalViews}"></td>
                     <td scope="row" th:text="${ads.click}"></td>
                     <td scope="row" th:text="${ads.shared}"></td>
