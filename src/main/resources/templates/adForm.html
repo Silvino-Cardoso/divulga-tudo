@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://hymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar novo anúncio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+</head>
+<body>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            Controle de anúncios
+          </a>
+        </div>
+      </nav>
+
+      <div class="container">
+          <th:block th:include="mensagemValidacao"></th:block>
+          <form method="post" class="row g-3" style="margin:15px;">
+            <div class="col-md-6">
+              <label  class="form-label">Nome do anúncio</label>
+              <input name="adName" type="text" class="form-control">
+            </div>
+            <div class="col-md-6">
+              <label  class="form-label">Cliente</label>
+              <input name="clientName" type="text" class="form-control">
+            </div>
+            <div class="col-md-4">
+              <label  class="form-label">Data inicial</label>
+              <input  name="initialDate" type="text" class="form-control" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="col-md-4">
+              <label  class="form-label">Data final</label>
+              <input name="finalDate" type="text" class="form-control" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="col-md-4">
+              <label  class="form-label">Investimento por dia</label>
+              <input name="dailyInvestment" type="number" class="form-control">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+              <a href="/"><button  type="button" class="btn btn-secondary">Cancelar</button></a>
+            </div>
+          </form>
+      </div>
+
+</body>
+</html>
