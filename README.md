@@ -50,7 +50,7 @@ Faça o download ( clone )desse repositório
 Abra o projeto com a Ide de preferência ( Intelijj, NetBeans ...)
 ```
 ```
-Rode a aplicação ( Run application)
+Rode a aplicação ( Run application - Classe main AdsApplication.java)
 ```
 ```
 Após iniciar a aplicação estará disponível no endereço http://localhost:8080/
