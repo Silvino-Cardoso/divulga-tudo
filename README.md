@@ -77,6 +77,7 @@ Para visualizar o banco de dados acessar http://localhost:8080/h2-console ( usua
 * [Spring Data JPA](https://spring.io/projects/spring-data-jpa) 
 * [H2 Database](https://www.h2database.com/html/main.html)
 * [Thymeleaf](https://www.thymeleaf.org/)
+* [Bootstrap](https://getbootstrap.com/)
 
 
 
